@@ -1,0 +1,18 @@
+
+<div class="container">
+
+	<alert ng-repeat="alert in alerts" type="alert.type" close="closeAlert()">{{alert.msg}}</alert>
+	<div id="format-toolbar1" toolbar-tip="{content: '#format-toolbar-options', position: 'top'}">
+       <span class="glyphicon glyphicon-star"></span>
+    </div>        
+	<div id="format-toolbar2" toolbar-tip="{content: '#format-toolbar-options', position: 'left'}">
+	        <span class="glyphicon glyphicon-star"></span>
+	    </div>
+	    
+	    <div id="format-toolbar-options">
+	        <a href="#"><i class="glyphicon glyphicon-align-left"></i></a>
+	        <a href="#"><i class="glyphicon glyphicon-align-center"></i></a>
+	        <a href="#"><i class="glyphicon glyphicon-align-right"></i></a>
+	    </div>	
+
+</div>
