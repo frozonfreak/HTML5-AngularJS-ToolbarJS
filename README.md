@@ -29,3 +29,6 @@ the following conditions:
 ## Documentation
 
 In Progress
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/frozonfreak/html5-angularjs-toolbarjs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
